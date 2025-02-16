@@ -1,0 +1,61 @@
+<!-- 
+ * Todos los elementos de HTML tienen atributos
+ * Los atributos provee informacion adicional sobre los elementos
+ * Los atributos siempre se especifican en la etiqueta de inicio
+ * Los atributos usualemnte vienen en pares de nombre/valor como: nombre="valor" 
+-->
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <!-- La etiqueta <a> define un hyperlink. El atributo href especifica el URL
+            de la pagina del enlace al que se puede ir. -->
+        <a href="https://www.youtube.com/">Enlace a Youtube</a>
+
+        <!-- La etiqueta <img> es usado para adjuntar una imagen una pagina HTML. El atributo
+         src especifica la ubicacion y el nombre de la imagen que se va a mostrar.-->
+        
+        <!-- Un URL absoluto se refiere a una imagen externa que esta almacenada en otra pagina
+         web.-->
+        <img src="https://www.w3schools.com/images/img_girl.jpg">
+        
+        <!-- Un URL relativo se refiere a una imagen que esta almacenada dentro del mismo sitio web.
+         La URL no incluye un nombre de dominio. Ejemplos: -->
+        <img src="astro.jpg">
+        <img src="/images/gato.jpg">
+
+        <!-- La etiqueta <img> tambien contiene los atributos width y el atributo height, 
+            que especifican el ancho y la altura de la imagen en pixeles.-->
+        <img src="astro.jpg" width="500" height="600">
+
+        <!-- El atributo requerido alt para <img> especifica un texto alternativo para una imagen.
+         Es por si la imagen por alguna razon no se puede mostrar. Puede ser una conexión lenta, o un
+         error en el atributo src o si el usuario utiliza un lector de pantalla. -->
+        <img src="astro.jpg" alt="Un selfie de un astronauta">
+        <!-- Ejemplo de una image con error en el atributo src -->
+        <img src="asto.jpg" alt="Un selfie de un astronauta">  
+        
+        <!-- El atributo style es usado para agregar estilos a un elemento, como colores, fuentes,
+        tamaño, etc. -->
+        <p style="color:red;">Esto es un paragrafo rojo.</p>
+
+        <!-- El atributo lang dentro de la etiqueta <html>, que declara el lenguaje de una pagina
+        web. Su función es ayudar a motores de busqueda y navegadores 
+        Ejemplo:
+
+        <!DOCTYPE html>
+        <html lang="en-US"> <---- especifica el lenguaje y el pais de origen
+        <body>
+        ...
+        </body>
+        </html>
+
+        -->
+
+        <!-- El atributo title define información extra sobre un elemento. El valor del atributo
+         title se muestra como una tooltip cuando pasas tu raton sobre el elemento. -->
+        <p title="Esto es una tooltip">Esto es un parrafo con una atributo title</p>
+
+    </body>
+</html>
