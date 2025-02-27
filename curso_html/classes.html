@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ciudad{
+                background-color: tomato;
+            }
+        </style>
+        <title>Titulo de la pagina</title>
+    </head>
+    <body>
+
+        <!-- El atributo class es usado para especificar una clase de un elemento HTML-->
+        <!-- Es usado con frecuencia para apuntar a un nombre de clase en un archivo css
+         . Tambien puede ser usado por codigo Javascript-->
+        <div class="city">
+            <h1>Ciudad de México</h1>
+            <p>La CDMX es la ciudad mas grande de Latinoamerica</p>
+        </div>
+        
+        <!-- Un elmeento HTML puede usar multiples clases, los nombres deben de ser separadas
+         por espacios-->
+         <h1 class="city capital">Culiacan</h1>
+
+        <!-- Diferentes elementos HTML pueden tener el mismo nombre de clase-->
+        <h2 class="city">Guasave</h2>
+        <h2 class="city">Los Mochis</h2>
+
+        <!-- Uso de un script de Javascript usando un nombre de clase (en este ejemplo es "city")-->
+        <script>
+            function myFunction() {
+              var x = document.getElementsByClassName("city");
+              for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+            }
+        </script> 
+    </body>
+</html>
