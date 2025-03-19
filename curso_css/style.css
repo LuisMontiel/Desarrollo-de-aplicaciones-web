@@ -1,0 +1,51 @@
+/* 
+CSS es el lenguaje que usamos para dar estilo a una página web. 
+CSS viene de las siglas de "Cascading Style Sheets" (hojas de estilo en cascada)
+*/
+
+/*
+Sintaxis:
+h1 -> selector
+color -> propiedad
+blue -> valor
+; -> final de una declaracion
+*/
+h1 {
+    /* Color de fondo */
+    background-color: dodgerblue;
+    /* Color de texto */
+    color:blue;
+    /* Color de borde */
+    border: 2px solid Tomato;
+    /* Tamaño de fuente de letra */
+    font-size:12px;
+    /* Los valores de colores se pueden especificar como
+       RGB, HEX, HSL, RGBA y HSLA*/
+    background-color: rgb(255, 99, 71);
+    background-color: #ff6347;
+    background-color: hsl(9, 100%, 64%);
+    /* RGBA y HSLA puede agregar una transparencia en sus colores*/
+    background-color: rgba(255, 99, 71, 0.5);
+    background-color: hsla(9, 100%, 64%, 0.5);
+}
+
+body {
+    background-color: green;
+    /* Propiedad para especificar una opacidad o transparencia (tambien se puede
+     hacer utilizando valores RGBA o HSLA*/
+    opacity: 0.3;
+    /* Propiedad para asignar una imagen de fondo*/
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg");
+    /* Propiedad que repite una imagen horizantalmente y verticalmente*/
+    background-repeat: repeat-y;
+    /* Propiedad para que la imagan solo se muestra una vez*/
+    background-color: no-repeat;
+    /* Propiedad para especificar la posicion de la imagen de fondo */
+    background-position: right top;
+    /* Propiedad que especifica que la imagen de fondo sea fija */
+    background-attachment: fixed;
+    /* Propiedad que especifica que la imagen de fondo se mueva mientras bajas el scroll */
+    background-attachment: scroll;
+}
+
+
