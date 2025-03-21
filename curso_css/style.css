@@ -10,6 +10,11 @@ color -> propiedad
 blue -> valor
 ; -> final de una declaracion
 */
+
+body {
+    background-color: #24482e;
+}
+
 h1 {
     /* Color de fondo */
     background-color: dodgerblue;
@@ -29,7 +34,7 @@ h1 {
     background-color: hsla(9, 100%, 64%, 0.5);
 }
 
-body {
+h2 {
     background-color: green;
     /* Propiedad para especificar una opacidad o transparencia (tambien se puede
      hacer utilizando valores RGBA o HSLA*/
@@ -48,4 +53,88 @@ body {
     background-attachment: scroll;
 }
 
+/* Bordes */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.borde{
+    border-style: solid;
+    /* Ancho o tamaño del borde */
+    border-width: 5px;
+    border-width: medium;
+    border-width: thick;    
+    /* Tamaño con lados especificos*/
+    border-width: 25px 10px 4px 35px;
+    /* Colores de los bordes */
+    border-color: green;
+    border-color: red green blue yellow;
+    /* Borde redondo*/
+    border-radius: 5px;
+}
+
+p.margen{
+    /* Margenes individuales */
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 250px;
+
+    /* Forma mas corta */
+    margin: 100px 150px 200px 250px;
+
+    background-color: grey;
+}
+
+p.padding{
+    /* Padding o relleno*/
+    /* Padding individual */
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+    /*Forma mas corta */
+    padding: 50px 30px 50px 80px;
+    background-color: blue;
+}
+
+p.tamaño{
+    /* Altura */
+    height: 200px;
+    /* Ancho */
+    width: 50px;
+    /* Ancho maximo */
+    max-width: 500px;
+    background-color: powderblue;
+}
+
+p.outline{
+    /* Espacio fuera del contenido y sus bordes */
+    /* Estilo (Los mismos que tienen los bordes)*/
+    outline-style: solid;
+    /* Color */
+    outline-color: orange;
+    /* Anchura */
+    outline-width: 500px;
+    /* Espacio entre el outline y el borde del contenido*/
+    outline-offset: 15px;
+
+}
+
+p.texto {
+    /* Color */
+    color: black;
+    /* Color de fondo */
+    background-color: white;
+    
+}
 
