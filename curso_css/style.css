@@ -136,5 +136,55 @@ p.texto {
     /* Color de fondo */
     background-color: white;
     
+    /* Alineacion */
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+
+    /* Alineacion de la ultima linea del texto */
+    text-align-last: center;
+    text-align-last: left;
+    text-align-last: right;
+    text-align-last: justify;
+
+    /* Direccion de un elemento */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    /* Alineacion vertical de un elemento */
+    vertical-align: baseline;
+
+    /* Decoracion del texto */
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-line: underline;
+    text-decoration-line: overline underline;
+    text-decoration-color: blue;
 }
+
+p.fuente{
+    /* Fuentes de texto */
+    font-family: "Times New Roman", Times, serif;
+}
+
+    /* Enlaces */
+
+    /* Para enlaces no vistados */
+a:link {
+    color: red;
+}
+    /* Para enlaces vistados */
+a:visited {
+    color: green;
+}
+    /* Un mouse sobre un link */
+a:hover {
+    color: blue;
+}
+    /* Links seleccionados */
+a:active {
+    color: yellow;
+}
+    
 
